@@ -14,7 +14,7 @@ function Header() {
 		<div className="header">
 			<div className="headerLeft">
 				<MenuIcon />
-				<img className="headerLogo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/YouTube_Logo.svg" alt="" />
+				<img className="headerLogo" src="https://cdn.pixabay.com/photo/2016/10/25/18/57/animal-1769728_960_720.png" alt="" />
 			</div>
 
 			<div className="headerMiddle">
@@ -26,7 +26,7 @@ function Header() {
 				<VideoCallIcon className="headerRightIcons" />
 				<AppsIcon className="headerRightIcons" />
 				<NotificationsIcon className="headerRightIcons" />
-				<Avatar alt="Jay Barbhaiya" src="https://avatars.githubusercontent.com/u/7147878?s=40&v=4" />
+				<Avatar alt="Jay Barbhaiya" src="https://avatars.githubusercontent.com/u/7147878?s=40&v=4" />	
 			</div>
 		</div>
 	)

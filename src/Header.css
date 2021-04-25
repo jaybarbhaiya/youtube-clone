@@ -24,7 +24,7 @@
 
 /******** headerMiddle -> input and search icon ********/
 .headerMiddle {
-	flex: 0.4;
+	flex: 0.6;
 	border: 1px solid lightgray;
 }
 
