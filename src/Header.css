@@ -1,0 +1,47 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: white;
+}
+
+.headerLogo {
+	height: 1.75rem;
+	object-fit: contain;
+	margin: 0.5rem;
+}
+
+.headerLeft,
+.headerMiddle,
+.headerRight {
+	display: flex;
+	align-items: center;
+}
+
+/******** headerMiddle -> input and search icon ********/
+.headerMiddle {
+	flex: 0.4;
+	border: 1px solid lightgray;
+}
+
+.headerMiddle > input {
+	flex: 1;
+	border: none;
+}
+
+.headerMiddleSearchButton {
+	border-left: 1px solid lightgray;
+	color: gray;
+	width: 3rem !important;
+}
+/******** headerMiddle -> input and search icon ********/
+
+/******** headerRight -> icons and avatar ********/
+.headerRightIcons {
+	margin-right: 0.5rem;
+}
+/******** headerRight -> icons and avatar ********/
