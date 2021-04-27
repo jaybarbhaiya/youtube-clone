@@ -1,0 +1,31 @@
+.videoRow {
+	display: flex;
+	margin-bottom: 2rem;
+	max-width: 43.75rem;
+}
+
+.videoRow > img {
+	object-fit: contain;
+	height: 8.75rem;
+	width: 15.5rem;
+}
+
+.videoRowText {
+	margin-left: 0.875rem;
+}
+
+.videoRowDescription {
+	margin-top: 1.25rem;
+	font-size: 0.875rem;
+	color: #606060;
+}
+
+.videoRowHeadline {
+	font-size: 0.875rem;
+	color: #606060;
+}
+
+.videoRowSubs {
+	font-weight: bolder;
+	color: rgb(54, 157, 211);
+}
